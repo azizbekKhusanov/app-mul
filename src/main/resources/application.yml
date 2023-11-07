@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      primary:
+        host: localhost
+        database: multi_test1
+        authenticationDatabase: admin
+        username: user1
+        password: 12345
+        port: 27017
+      secondary:
+        host: localhost
+        database: multi_test2
+        authenticationDatabase: admin
+        username: user1
+        password: 12345
+        port: 27017
+
+server:
+  port: 8081
+
